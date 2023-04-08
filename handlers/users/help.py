@@ -6,7 +6,8 @@ from loader import dp
 
 @dp.message_handler(CommandHelp())
 async def bot_help(message: types.Message):
-    text = ("Buyruqlar: ",
+    text = ("Iltimos, ma'lumolarni kiriting!\n\n"
+            "Buyruqlar: ",
             "/start - Botni ishga tushirish",
             "/help - Yordam")
     
